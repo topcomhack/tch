@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComHack - контакты</title>
+    <style>
+        /* Ваши стили здесь */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333333;
+        }
+
+        /* Стиль для блока "Контакты" */
+        .contacts {
+            max-width: 80vw;
+            margin: 30px auto;
+        }
+
+        .contacts h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .contacts p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .contacts ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contacts li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .contacts a {
+            color: #4edcf1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contacts a:hover {
+            color: #3a4950;
+        }
+        nav{
+        z-index: 100;
+        width: 100vw;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(94, 220, 241);
+            transition: 0.5s;
+            display: flex;
+        justify-content: space-around;
+        }
+  
+        .topnav a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 0.5s;
+        }
+        
+        .topnav a:hover {
+            background-color: rgb(0, 0, 0, 0.1);
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: rgb(0, 0, 0, 0.5);
+            color: white;
+        }
+        .topnav a.active:hover {
+            background-color: #fff;
+            color: black;
+        }
+        footer {
+            font-family: Arial, sans-serif;
+            background-color: rgb(28, 67, 74);
+            color: rgb(94, 220, 241);
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: absolute;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        footer a {
+            color: rgb(94, 220, 241);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            margin: 5px;
+        }
+
+        footer a:hover {
+            color: rgba(94, 220, 241, 0.8);
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="topnav">
+        <a href="./index.html">Главная</a>
+        <a href="./we_create.html">Создаем</a>
+        <a class="" href="">Контакты</a>
+        <a href="./about_us.html">О нас</a>
+      </div>
+    </nav>
+    <div class="contacts">
+        <h2>Контакты</h2>
+        <p>Мы всегда рады ответить на ваши вопросы и обсудить возможные варианты сотрудничества. Вы можете связаться с нами по следующим контактам:</p>
+        <ul>
+            <li>Email: <a href="mailto:pr@topplayyt.ru">info@comhack.com</a></li>
+            <li>Телеграм: <a href="https://t.me/dmitressss">https://t.me/dmitressss</a></li>
+
+        </ul>
+        
+        <h2>Наши публичные страницы</h2>
+        <ul>
+        <li>Телеграм: <a href="https://t.me/TComHack/">https:t.me/TComHack/</a></li>
+        </ul>
+        <h2>Работа с нами</h2>
+        <p>Заходи в нашу группу в телеграме и подавай заявку в основную команду по ссылке в закрепе. У нас ты сможешь развить свои навыки в разработке и создавать уникальные проекты вместе с нашей сплоченной командой. Присоединяйся и стань частью успешного IT сообщества.</p>
+        <ul>
+            <li>Telegram: <a href="https://t.me/ComHack_new">https://t.me/ComHack_new</a></li>
+        </ul>
+    </div>
+    
+        <footer>
+        <p>ComHack - разработка &copy; <span id="currentYear"></span> <br>
+        
+        Все права защищены. | All rights reserved.</p>
+    </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
+</body>
+</html>

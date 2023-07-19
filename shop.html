@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин ComHack</title>
+    <link rel="stylesheet" href="shop_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/shop_style.css">
+</head>
+<body>
+    <nav>
+    <div class="topnav">
+            <a href="./index.html">Главная</a>
+            <a href="./we_create.html">Создаем</a>
+            <a href="./contacts.html">Контакты</a>
+            <a href="./about_us.html">О нас</a>
+          </div>
+        </nav>
+<h1 style="text-align: center; margin-bottom: 50px; margin-top: 50px;" class="catalog" id="catalog">Наш каталог</h1>
+<div class="shop1">
+    <div class="tov1"><H2 class="nameoftov">Футболка</H2>
+        <h2 class="price">Цена: 150 Баллов</h2></div>
+    <div class="tov2 top_padding"><H2 class="nameoftov">Шоппер</H2>
+        <h2 class="price">Цена: 200 Баллов</h2></div>
+    <div class="tov3 top_padding_1200"><H2 class="nameoftov">Power-bank</H2>
+        <h2 class="price">Цена: 300 Баллов</h2></div>
+</div>
+<div class="shop1">
+    <div class="tov4"><H2 class="nameoftov">Брелок</H2>
+        <h2 class="price">Цена: 50 Баллов</h2></div>
+    <div class="tov5 top_padding"><H2 class="nameoftov">Значок</H2>
+        <h2 class="price">Цена: 75 Баллов</h2></div>
+    <div class="tov6 top_padding_1200"><H2 class="nameoftov">Обложа для паспорта</H2>
+        <h2 class="price">Цена: 150 Баллов</h2></div>
+</div>
+<div class="shop1">
+    <div class="tov7"><H2 class="nameoftov">Копилка</H2>
+    <h2 class="price">Цена: 150 Баллов</h2></div>
+    <div class="tov8 top_padding"><H2 class="nameoftov">Металлическая бутылка</H2>
+        <h2 class="price">Цена: 200 Баллов</h2></div>
+    <div class="tov9 top_padding_1200"><H2 class="nameoftov">Кепка</H2>
+        <h2 class="price">Цена: 150 Баллов</h2></div>
+</div>
+<hr class="linem"> 
+<footer>
+    <p>ComHack - разработка &copy; <span id="currentYear"></span> <br>
+    
+    Все права защищены. | All rights reserved.</p>
+</footer>
+
+<script>
+    // Обновление текущего года
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComHack - разработка</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: rgb(94, 220, 241);
+            color: rgb(256, 256, 256);
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .project-block {
+            background-color: rgb(28, 67, 74);
+            color: rgb(256, 256, 256);
+            padding: 30px;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 80vw;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .project-block h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        .project-block p {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        h1.we__create {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+              font-family: Arial, sans-serif;
+  color: rgb(28, 67, 74);
+}
+nav{
+    z-index: 100;
+    width: 100vw;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(94, 220, 241);
+    transition: 0.5s;
+    display: flex;
+justify-content: space-around;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+  }
+  .topnav a.active:hover {
+    background-color: #fff;
+    color: black;
+  }
+
+  footer {
+            font-family: Arial, sans-serif;
+            background-color: rgb(28, 67, 74);
+            color: rgb(94, 220, 241);
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: absolute;
+            width: 100%;
+            font-size: 16px;
+
+        }
+
+        footer a {
+            color: rgb(94, 220, 241);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            margin: 5px;
+        }
+
+        footer a:hover {
+            color: rgba(94, 220, 241, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <a href="./index.html">Главная</a>
+            <a class="active" href="./we_create.html">Создаем</a>
+            <a href="./contacts.html">Контакты</a>
+            <a href="./about_us.html">О нас</a>
+          </div>
+        </nav>
+
+    <h1 class="we__create" id="creating">Мы создаем</h1>
+    <!-- ВК и Телеграм Чат-боты -->
+    <div class="project-block">
+        <h2>ВК и Телеграм Чат-боты</h2>
+        <p>Мы создаем умные и интересные чат-боты для ВКонтакте и Telegram. Наши боты способны общаться с пользователями, предоставлять полезную информацию, а также выполнять различные задачи и команды.</p>
+        <p>Мы используем современные технологии и искусственный интеллект, чтобы сделать ваши боты максимально полезными и удобными в использовании.</p>
+    </div>
+
+    <!-- Игры на Python -->
+    <div class="project-block">
+        <h2>Игры на Python</h2>
+        <p>Наши талантливые разработчики создают увлекательные игры на языке программирования Python. Мы используем различные библиотеки и фреймворки, чтобы реализовать игровую механику, графику и звук.</p>
+        <p>От классических аркад до стратегий и головоломок, мы можем создать игры на любой вкус и под любые платформы.</p>
+    </div>
+
+    <!-- Приложения на Python -->
+    <div class="project-block">
+        <h2>Приложения на Python</h2>
+        <p>Мы разрабатываем функциональные и удобные приложения на языке программирования Python. Независимо от того, нужно ли вам приложение для решения бизнес-задач, автоматизации процессов или улучшения пользовательского опыта, мы сможем воплотить ваши идеи в реальность.</p>
+        <p>Наши приложения отличаются надежностью, эффективностью и простотой использования.</p>
+    </div>
+
+    <!-- Сайты с интерактивом (JS) -->
+    <div class="project-block">
+        <h2>Сайты с интерактивом (JS)</h2>
+        <p>Наши дизайнеры и разработчики создают современные и стильные сайты с использованием JavaScript для добавления интерактивности и динамичности.</p>
+        <p>Мы уделяем особое внимание пользовательскому опыту, чтобы каждый сайт был удобным и приятным в использовании.</p>
+        <p>Мы готовы реализовать различные функциональные возможности, такие как анимации, слайдеры, формы обратной связи и многое другое.</p>
+    </div>
+    <footer>
+        <p>ComHack - разработка &copy; <span id="currentYear"></span> <br>
+        
+        Все права защищены. | All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Обновление текущего года
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
+</body>
+</html>
